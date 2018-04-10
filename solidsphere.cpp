@@ -32,6 +32,14 @@ void redirect()
     {
         dx=-1*dx;
     }
+    if(yTranslated>=1.5||yTranslated<=-1.5)
+    {
+        dy=-1*dy;
+    }
+    if(zTranslated>=-4.5||zTranslated<=-6.5)
+    {
+        dz=-1*dz;
+    }
     
 }
 void idleFunc(void)
